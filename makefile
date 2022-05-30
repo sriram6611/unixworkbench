@@ -5,3 +5,4 @@ readme : guessinggame.sh
 	date >> README.md
 	echo "\nNumber of lines guessinggame.sh file contain:" >> README.md
 	cat guessinggame.sh | wc -l >> README.md
+	
